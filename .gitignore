@@ -1,2 +1,14 @@
-/check_columns.py
-/en.openfoodfacts.org.products.tsv
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.streamlit/secrets.toml
+.env
